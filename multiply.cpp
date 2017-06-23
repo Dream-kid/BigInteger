@@ -1,4 +1,3 @@
-// multiply of 2 number
 #include<iostream>
 #include<string>
 #include<vector>
@@ -70,6 +69,7 @@ int main()
         {
             c= b[i];
             lli m=c-'0';
+
             p=a;
             len3=a.size();
             for(lli j=1; j<m; j++)
@@ -86,7 +86,7 @@ int main()
             sum.clear();
 
             p=p+p1;
-
+            if(m==0) p="0";
             v.push_back(p);
             p.clear();
 
