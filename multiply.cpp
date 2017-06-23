@@ -1,4 +1,4 @@
-# multiply of 2 number
+// multiply of 2 number
 #include<iostream>
 #include<string>
 #include<vector>
