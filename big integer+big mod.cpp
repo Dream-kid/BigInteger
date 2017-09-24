@@ -274,5 +274,3 @@ int main()
     }
 
 }
-
- big-integer
